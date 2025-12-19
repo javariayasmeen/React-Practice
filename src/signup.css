@@ -1,0 +1,37 @@
+.SignUpForm{
+    width:20vw;
+    height:300px;
+    border:2px red solid;
+    border-radius: 5px;
+    margin-left:500px;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:30px;
+}
+form {
+    display: flex;
+     flex-direction: column; 
+     width: 20vw;
+}
+ input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+ }
+button {
+    width: 21vw;
+    padding: 8px;
+    background: aliceblue;
+    color: blue;
+    border:2px black solid;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color:grey;
+    color: white;
+}
